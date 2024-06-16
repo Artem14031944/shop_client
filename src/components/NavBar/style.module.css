@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link_logo {
+    color: white;
+}
+
+.link_logo.active {
+    color: red;
+}
+
+.block_links {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+}
