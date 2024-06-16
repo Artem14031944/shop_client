@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    padding: 20px 40px;
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 20px;
+    width: 320px;
+}
+
+.block_registration {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.block_registration span {
+    margin-right: 5px;
+}
+
+.block_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    margin-top: 20px;
+}

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
+import { Button, Container } from 'react-bootstrap';
 import { SHOP_ROUTE } from '../../utils/consts';
 import { NavLink } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
-import { Button, Container } from 'react-bootstrap';
 import { Context } from '../..';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
